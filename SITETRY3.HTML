@@ -30,6 +30,7 @@
 .side {
   flex: 30%;
   background-color: #f1f1f1;
+;
   padding: 20px;
 }
 
@@ -59,7 +60,6 @@ h2 {
         border: none;
         color: #ffffff;
         padding: 20px 40px;
-        text-align: center;
         font-family: "Trirong", serif;
         text-decoration: none;
         display: inline-block;
@@ -71,6 +71,11 @@ h2 {
 .border {
   border-style: ridge;
 }
+.abtme {
+  background-color: #ffffff;
+  width: 100%;
+}
+
 .font {
     font-family: "Trirong", serif;
 }
@@ -117,16 +122,20 @@ h6 { color: rgb(8, 8, 8); }
 <!--sidebar-->
 <div class="row">
   <div class="side">
-    <h2><div class="fakimg border">About Me</h2>
+    <h2><div class="abtme border">About Me</h2>
 
-    <p>Some text about me......</p>
+    <p><div class="border">Hi, my name is Asonti' Ginn I am a DevOps Engineer. <br> I inched into tech by trying to code Java and lets just say I was getting ahead of myself. 
+      I started researching other technical avenues and I found the Cloud. I spent the last year dedicating every day to advancing my techincal skills in
+      the cloud. Obtaining multiple Technical Certifictations, completing more than 20 techincal projects, and constanly studying to advance these skills. 
+      If you haven't already be sure to connect with me on LinkedIn!
+    </p></div>
 
 
-    <h2><div class="fakimg border">Skills</h2>
+    <h2><div class="abtme border">Skills</h2>
     <div class="fakeimg border" style="height:100px;">EC2, S3, DynamoDB, SNS, SQS, VPC, CloudFront, Glue & Route 53 </div><br>
     <div class="fakeimg border" style="height:100px;">Jenkins, Docker, CI/CD, Git, CodeDeploy, CodePipeline, CodeCommit, & Cloud9  </div><br>
     <div class="fakeimg border" style="height:100px;"> </h1>Languages: Bash, Python, HTML, Terraform, JSON, & YAML</div><br>
-    <div class="fakeimg border" style="height:100px;">Other: Technical Writing, Communication, Team Leading, </div><br>
+    <div class="fakeimg border" style="height:100px;">Other: Technical Writing, Communication, Team Leading, Organization, & Problem Solving </div><br>
   </div>
   
   <div class="main">
@@ -141,8 +150,10 @@ h6 { color: rgb(8, 8, 8); }
     <a href="https://cs.lpi.org/caf/Xamman/certification/verify/LPI000561460/rddd3hyjjf">
         <img src="https://www.sysadminsdecuba.com/wp-content/uploads/2019/07/lpi-logo.png" style="width:300px;height:150px;">
     </a>
-    <p><b>spacer</p>
-    <p><b>I am currently studying to obtain AWS Solutions Architect Certification.</p>
+    <p><b>Over the last few months I have studied hard to obtain multiple certifications to display my knowledge in the cloud. I currently hold 3 technical 
+      certifications: AWS Certified Developer, Hashicorp Terraform Associate, and Linux Essentials. 
+    </p>
+    <p><b>I am currently studying to obtain AWS Solutions Architect Certification and I am aiming to take it at the beginning of 2024!</p>
     
     </div>
     <br>
@@ -169,7 +180,8 @@ h6 { color: rgb(8, 8, 8); }
     <a href="https://medium.com/devops-dev/creating-a-highly-available-webapp-with-cloudformation-and-code-pipeline-a0b915d374fd">
       <img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*nMQkxHzsfFYeHe-7l2GnVw.gif" style="width:300px;height:200px;">
   </a> 
-  <h4> This article was published in DevOps.dev publication. <br>
+  <h4> This article was published in the DevOps.dev publication. <br>
+    Skills used: CloudFormation, CodePipeline, EC2 Instances, Auto Scaling groups, and CloudWatch alarms.<br> 
     In this project I created a CloudFormation Template to deploy a webapp. I made sure the application was highy avaliable in multiple AZ's and auto scalable when a threshold was exceeded. 
     Utilized CloudWatch alarms to notify me when the threshold was exceeded. The application was then put into a pipeline so it can automatically update and deploy when the stack was updated. 
   </h4>
@@ -178,23 +190,26 @@ h6 { color: rgb(8, 8, 8); }
     <h2><div class="fakimg border"> My Favorite Projects </h2>
 
     <div class="fakeimg border">
-    <a href="https://medium.com/@asontidg/creating-a-html-report-with-a-jenkins-pipeline-df434ae42372">
-      <img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*hU9voJHtrcqc1OFkIEDVcA.png" style="width:300px;height:200px;">
+    <a href="https://medium.com/womenintechnology/fun-with-dynamodb-boto3-using-cloud9-37396f9aeefc">
+      <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*UIoH73-paOI4UPkzkqi1nQ.png" style="width:300px;height:200px;">
   </a> 
-  <h4> This article was published in DevOps.dev publication. <br>
+  <h4> This article was published in the Women in Technology publication. <br>
+    Skills used: Cloud9, DynamoDB, and Python.<br> 
     In this project I created a CloudFormation Template to deploy a webapp. I made sure the application was highy avaliable in multiple AZ's and auto scalable when a threshold was exceeded. 
     Utilized CloudWatch alarms to notify me when the threshold was exceeded. The application was then put into a pipeline so it can automatically update and deploy when the stack was updated. 
-  </h4><a href="https://medium.com/womenintechnology/launching-instances-using-an-auto-scaling-group-with-terraform-7e710e47435a">
-    <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*DQFIMHufiDl0YJ5-J5uQYQ@2x.jpeg" style="width:300px;height:200px;" float: right; >
+  </h4><a href="https://medium.com/dev-genius/jenkins-installation-inside-an-ec2-instance-using-terraform-91f33b5e8fe6">
+    <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*HwlAYLbGwtNnwGBPAoDdqQ.png" style="width:300px;height:200px;" float: right; >
   </a>
-<h4> This article was published in DevOps.dev publication. <br>
+<h4> This article was published in the Dev Genius publication. <br>
+  Skills used: Cloud9, Terraform, Jenkins, Bash Scripting, and VPCs.<br> 
   In this project I created a CloudFormation Template to deploy a webapp. I made sure the application was highy avaliable in multiple AZ's and auto scalable when a threshold was exceeded. 
   Utilized CloudWatch alarms to notify me when the threshold was exceeded. The application was then put into a pipeline so it can automatically update and deploy when the stack was updated. 
 </h4>
 <a href="https://medium.com/aws-tip/ci-cd-with-aws-87b2fb80e86e">
   <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*lJw5Xri4hBv9pwqnWWlNRQ.png" style="width:300px;height:200px;">
 </a> 
-<h4> This article was published in DevOps.dev publication. <br>
+<h4> This article was published in the AWS Tip publication. <br>
+  Skills used: S3, CodePipeline, AND Codecommit.<br> 
   In this project I created a CloudFormation Template to deploy a webapp. I made sure the application was highy avaliable in multiple AZ's and auto scalable when a threshold was exceeded. 
   Utilized CloudWatch alarms to notify me when the threshold was exceeded. The application was then put into a pipeline so it can automatically update and deploy when the stack was updated. 
 </h4>
@@ -207,7 +222,7 @@ h6 { color: rgb(8, 8, 8); }
 <!-- Footer -->
 <div class="footer">
   <h2>Made by Asonti Ginn 2023!</h2>
-  <h6><a href="https://github.com/Asonti04/mysite.git">Click here to see the HTML for this site</a></h6>
+  <h6><a href="https://github.com/Asonti04/mysite/blob/main/SITETRY3.HTML">Click here to see the HTML for this site</a></h6>
 </div>
 
 </body>
