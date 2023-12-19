@@ -67,6 +67,16 @@ h2 {
         margin: 4px 4px;
         cursor: pointer;
 }
+a:link {
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:visited {
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  text-decoration: underline;
+}
 
 .border {
   border-style: ridge;
@@ -124,10 +134,13 @@ h6 { color: rgb(8, 8, 8); }
   <div class="side">
     <h2><div class="abtme border">About Me</h2>
 
-    <p><div class="border">Hi, my name is Asonti' Ginn I am a DevOps Engineer. <br> I inched into tech by trying to code Java and lets just say I was getting ahead of myself. 
-      I started researching other technical avenues and I found the Cloud. I spent the last year dedicating every day to advancing my techincal skills in
-      the cloud. Obtaining multiple Technical Certifictations, completing more than 20 techincal projects, and constanly studying to advance these skills. 
+    <p><div class="border">Hi, my name is Asonti' Ginn I am a DevOps Engineer. <br> 
+      I am Open to Work! <br>
+      I inched into tech by trying to code Java and let's just say I was getting ahead of myself. 
+      I started researching other technical avenues and I found the Cloud. I spent the last year dedicating every day to advancing my technical skills in
+      the cloud. Obtaining multiple Technical Certifications, completing more than 20 technical projects, and constantly studying to advance these skills. 
       If you haven't already be sure to connect with me on LinkedIn!
+      <h4><a href="https://aginn.s3.us-west-1.amazonaws.com/Asonti.engineer+(2).pdf">Resume</a></h4>
     </p></div>
 
 
@@ -150,7 +163,7 @@ h6 { color: rgb(8, 8, 8); }
     <a href="https://cs.lpi.org/caf/Xamman/certification/verify/LPI000561460/rddd3hyjjf">
         <img src="https://www.sysadminsdecuba.com/wp-content/uploads/2019/07/lpi-logo.png" style="width:300px;height:150px;">
     </a>
-    <p><b>Over the last few months I have studied hard to obtain multiple certifications to display my knowledge in the cloud. I currently hold 3 technical 
+    <p><b>Over the last few months, I have studied hard to obtain multiple certifications to display my knowledge in the cloud. I currently hold 3 technical 
       certifications: AWS Certified Developer, Hashicorp Terraform Associate, and Linux Essentials. 
     </p>
     <p><b>I am currently studying to obtain AWS Solutions Architect Certification and I am aiming to take it at the beginning of 2024!</p>
@@ -182,38 +195,41 @@ h6 { color: rgb(8, 8, 8); }
   </a> 
   <h4> This article was published in the DevOps.dev publication. <br>
     Skills used: CloudFormation, CodePipeline, EC2 Instances, Auto Scaling groups, and CloudWatch alarms.<br> 
-    In this project I created a CloudFormation Template to deploy a webapp. I made sure the application was highy avaliable in multiple AZ's and auto scalable when a threshold was exceeded. 
-    Utilized CloudWatch alarms to notify me when the threshold was exceeded. The application was then put into a pipeline so it can automatically update and deploy when the stack was updated. 
+    In this project, I created a CloudFormation Template to deploy a Web app. I made sure the application was highly available in multiple AZs and auto-scalable when a threshold was exceeded. 
+    Utilized CloudWatch alarms to notify me when the threshold was exceeded. The application was then put into a pipeline so it could automatically update and deploy when the stack was updated. 
   </h4>
   </div>
     <br>
     <h2><div class="fakimg border"> My Favorite Projects </h2>
 
     <div class="fakeimg border">
-    <a href="https://medium.com/womenintechnology/fun-with-dynamodb-boto3-using-cloud9-37396f9aeefc">
-      <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*UIoH73-paOI4UPkzkqi1nQ.png" style="width:300px;height:200px;">
+    <a href="https://medium.com/@asontidg/triggering-lambda-using-an-api-gateway-and-boto3-d36fef007088">
+      <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*JqvWWCBG_RLJ5KBf6_zVsw.png" style="width:300px;height:200px;">
   </a> 
-  <h4> This article was published in the Women in Technology publication. <br>
-    Skills used: Cloud9, DynamoDB, and Python.<br> 
-    In this project I created a CloudFormation Template to deploy a webapp. I made sure the application was highy avaliable in multiple AZ's and auto scalable when a threshold was exceeded. 
-    Utilized CloudWatch alarms to notify me when the threshold was exceeded. The application was then put into a pipeline so it can automatically update and deploy when the stack was updated. 
+  <h4> 
+    Skills used: Lambda, API Gateway, SQS, and Python.<br> 
+    In Cloud9 I used Python (Boto3) to create an SQS queue that will receive messages from the Lambda Function. I set the Lambda 
+    function trigger as an API Gateway. When the API endpoint URL was loaded it would display a message about the purchase being successful.
+    The SQS queue would receive the order number from the customer. 
+
   </h4><a href="https://medium.com/dev-genius/jenkins-installation-inside-an-ec2-instance-using-terraform-91f33b5e8fe6">
     <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*HwlAYLbGwtNnwGBPAoDdqQ.png" style="width:300px;height:200px;" float: right; >
   </a>
 <h4> This article was published in the Dev Genius publication. <br>
   Skills used: Cloud9, Terraform, Jenkins, Bash Scripting, and VPCs.<br> 
-  In this project I created a CloudFormation Template to deploy a webapp. I made sure the application was highy avaliable in multiple AZ's and auto scalable when a threshold was exceeded. 
-  Utilized CloudWatch alarms to notify me when the threshold was exceeded. The application was then put into a pipeline so it can automatically update and deploy when the stack was updated. 
+  Using Terraform with AWS, I deployed an EC2 instance with a Jenkins server. I created a new security group that has 4 ports open and a S3 bucket to hold artifacts. 
+  I used 4 different .tf files to make sure the application was not monolithic. 
+   
 </h4>
 <a href="https://medium.com/aws-tip/ci-cd-with-aws-87b2fb80e86e">
   <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*lJw5Xri4hBv9pwqnWWlNRQ.png" style="width:300px;height:200px;">
 </a> 
 <h4> This article was published in the AWS Tip publication. <br>
   Skills used: S3, CodePipeline, AND Codecommit.<br> 
-  In this project I created a CloudFormation Template to deploy a webapp. I made sure the application was highy avaliable in multiple AZ's and auto scalable when a threshold was exceeded. 
-  Utilized CloudWatch alarms to notify me when the threshold was exceeded. The application was then put into a pipeline so it can automatically update and deploy when the stack was updated. 
+  Utilizing Code Pipeline I made a pipeline that used CodeCommit as the Source and an S3 bucket as the Depoly stage. 
+  The S3 bucket was used for static website hosting and it contained the code file used in the pipeline.
+  When the code was updated in the repository it would automatically deploy the updates to the webpage. 
 </h4>
-
   <br>
 </div>
 </div>
